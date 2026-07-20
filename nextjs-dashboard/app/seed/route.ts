@@ -1,6 +1,5 @@
-import bcrypt from 'bcrypt';
+/*import bcrypt from 'bcrypt';
 import postgres from 'postgres';
-import { invoices, customers, revenue, users } from '../lib/placeholder-data';
 
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
@@ -114,4 +113,4 @@ export async function GET() {
   } catch (error) {
     return Response.json({ error }, { status: 500 });
   }
-}
+}*/
